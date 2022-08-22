@@ -48,4 +48,4 @@ for text_color_pair in text:
  
 im.save("/home/pi/led-matrix-controller/rpi-rgb-led-matrix/examples-api-use/test.ppm")
  
-os.system("/home/pi/led-matrix-controller/rpi-rgb-led-matrix/examples-api-use/demo -D 1 test.ppm --led-rows=64 --led-cols=64 --led-gpio-mapping=adafruit-hat-pwm --led-gpio-slowdown=4 --led-brightness=50 -R 180")
+os.system("/home/pi/led-matrix-controller/rpi-rgb-led-matrix/examples-api-use/demo -D 1 test.ppm --led-rows=64 --led-cols=64 --led-gpio-mapping=adafruit-hat-pwm --led-gpio-slowdown=4 --led-brightness=50")
